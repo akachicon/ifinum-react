@@ -1,0 +1,57 @@
+:global * {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+}
+
+:global button span,
+:global tbody tr td {
+    font-weight: 400 !important;
+}
+
+:global body {
+    background: #F1F3F6;
+    padding: 1.7em;
+}
+
+:global thead tr th {
+    color: #778096 !important;
+}
+
+@media screen and (min-width: 1200px) {
+    .wrapper {
+        max-width: 1200px;
+        margin: auto;
+    }
+}
+
+.elementUIWrapper {
+    background: #fff;
+    margin: 2em 0 2em 0;
+    border: 1px solid #ECECED;
+    padding: 1.5em;
+}
+
+.header {
+    font-size: 1.3em !important;
+    font-weight: 600 !important;
+    color: #778096 !important;
+}
+
+.header span {
+    margin-left: .4em;
+}
+
+.header::before {
+    height: 140% !important;
+    position: absolute !important;
+    transform: none !important;
+    top: -25% !important;
+    width: .2em !important;
+    background: #E4E6E9;
+}
+
+.actionButton {
+    margin: .3em;
+    width: 6em;
+    overflow: hidden;
+}
